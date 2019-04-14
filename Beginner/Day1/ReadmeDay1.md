@@ -1,6 +1,6 @@
 What is Python?
 History of Python
-Silent Features of Python
+Salient Features of Python
 Python Programming Domains
 Why Should You Learn Python?
 Compiler vs interpreter
