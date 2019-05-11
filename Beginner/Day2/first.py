@@ -1,7 +1,4 @@
-#!/usr/bin/env python3
-
-"""
-    Program to demonstrate Basics of Input/Output
+""" Program to demonstrate Basics of Input/Output
 """
 
 # Importing Modules
@@ -11,19 +8,11 @@ import datetime
 todays_date = datetime.datetime.now()
 today = todays_date.strftime('%c')
 
-first = "First's"
-last = 'Last"s'
-
-# print(f'Contains both Single and Double Quotes: {first} {last}')
-
 # Accepting Inputs from User
 name = input("Enter Your Name: ")
 employee_id = int(input("Enter Employee Id: "))
 salary = float(input("Enter Salary: "))
-is_manager = bool(input("Enter Manager Status: "))
-
-# For simulating Error
-# employee_id = int("ABC")
+is_manager = bool(int(input("Enter Manager Status {1/0}: ")))
 
 # Displaying the output
 print("====================================================")

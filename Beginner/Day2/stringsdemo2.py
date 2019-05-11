@@ -16,7 +16,7 @@ def show_all_characters_v2(stringvalue: str):
     show_banner('=', 100)
     
     for character in stringvalue:
-        print(character, sep=' ', end = ' ')
+        print(character, end=' * ')
     
     print('\n')
     show_banner('-', 100)

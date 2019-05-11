@@ -1,5 +1,4 @@
-"""
-    Program to demonstrate Basics of function
+""" Program to demonstrate Basics of function
 """
 
 def add_two_numbers(value1, value2):
