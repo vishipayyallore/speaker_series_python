@@ -103,3 +103,12 @@ venv.bak/
 # mypy
 .mypy_cache/
 Python_Beginner_Day1.pptx
+Beginner/Day1/HelloWorld/HelloWorld/obj/HelloWorld.csproj.nuget.cache
+Beginner/Day1/HelloWorld/HelloWorld/obj/HelloWorld.csproj.nuget.dgspec.json
+Beginner/Day1/HelloWorld/HelloWorld/obj/HelloWorld.csproj.nuget.g.props
+Beginner/Day1/HelloWorld/HelloWorld/obj/HelloWorld.csproj.nuget.g.targets
+Beginner/Day1/HelloWorld/HelloWorld/obj/project.assets.json
+Beginner/Day1/HelloWorld/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.assets.cache
+Beginner/Day1/HelloWorld/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csproj.CoreCompileInputs.cache
+Beginner/Day1/HelloWorld/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csprojAssemblyReference.cache
+Beginner/Day1/HelloWorld/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csproj.CoreCompileInputs.cache
