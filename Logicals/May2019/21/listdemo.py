@@ -1,6 +1,5 @@
 
 
-
 if __name__ == '__main__':
     numbers = []
 
@@ -9,6 +8,6 @@ if __name__ == '__main__':
     for counter in range(N):
         command, *arguments = input().split()
         if(command != 'print'):
-            eval(f'numbers.{command}{tuple(map(int, arguments))}')
+            eval('numbers.{0}{1}'.format(command, tuple(map(int, arguments))))
         else:
             print(numbers) 
