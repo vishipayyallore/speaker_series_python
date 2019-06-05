@@ -1,6 +1,7 @@
 from collections import defaultdict
 
 source = defaultdict(list)
+outputs = defaultdict(list)
 
 inputs = list(map(int, input().split()))
 
@@ -11,4 +12,9 @@ for counter in range(inputs[1]):
     source['second'].append(input())
 
 for item in source['second']:
-    print(item)
+    outputs[item].append(-1)
+
+for item in outputs.items():
+    for tup in item.items():
+        print(tup)
+
