@@ -15,6 +15,6 @@ for item in source['second']:
     outputs[item].append(-1)
 
 for item in outputs.items():
-    for tup in item.items():
-        print(tup)
+    for i in range(len(item)):
+        print(item[i])
 
