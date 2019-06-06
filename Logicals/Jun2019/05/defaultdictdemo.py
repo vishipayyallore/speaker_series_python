@@ -14,6 +14,7 @@ for counter in range(inputs[1]):
 for item in source['second']:
     outputs[item].append(-1)
 
+print('-----')
 for item in outputs.items():
     for i in range(len(item)):
         print(item[i])
