@@ -14,7 +14,7 @@ today = todays_date.strftime('%c')
 name = input("Enter Your Name: ")
 employee_id = int(input("Enter Employee Id: "))
 salary = float(input("Enter Salary: "))
-is_manager = bool(input("Enter Manager Status: "))
+is_manager = bool(int(input("Enter Manager Status {1 OR 0}: ")))
 
 # Displaying the output
 print("====================================================")
